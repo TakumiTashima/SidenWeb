@@ -1,24 +1,281 @@
 <!doctype html>
 <html>
-<head>
-<meta charset="utf-8">
-<title>函館市電サイト</title>
-<link ref="stylesheet"  type="text/css" src="style/css/index_main.css">
-</head>
+	<head>
+		<meta charset="utf-8">
+		<title>函館市電サイト</title>
+		<link href="./style/css/index_main.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/main.js"></script>
+	</head>
 
-<body>
-	<header>
-		<div id="titleLogo">
-			<div id="logo">
-				<img id="symbol" src="img/logo.png">
-			</div>
-			<div id="title">
-				<h1>函館市電ウェブサイト</h1>
-			</div>
+	<body>
+		<header>
+			<ul>
+				<li id="logo">
+					<ul>
+						<li><img id="symbol" src="img/logo.png"></li>
+						<li><h1>函館市電ウェブサイト</h1></li>	
+					</ul>
+				</li>
+				<li id="linker">
+					<div id="siteMap">
+						<a href="hogehoge">サイトマップ</a>
+					</div>
+					<ul id="searchInSite">
+						<li><input type="search" maxlength="30" placeholder="Search for site"></li>
+						<li><input type="button" value="検索" onclick="hogehoge"></li>
+					</ul>
+				</li>
+			</ul>
+		</header>
+		
+		
+		<div id="mainVis">
+			<h3>イベントのご案内</h3>
+			<ul>
+				<a id="links" href="hogehoge">
+					<li>
+						<div id="events" onMouseOut="adaptOpacity(0);" onMouseOver="adaptOpacity(1);">
+
+								<img id="burner" src="hogehoge">
+
+							<div id="event_info">
+								<ul>
+									<li>
+										<h2 id="title">hogehoge</h2>
+										<h2 id="timing">hogehoge</h2>
+									</li>
+									<li>
+										<h3 id="fee">hogehoge</h3>
+									</li>
+								</ul>
+							</div>
+						</div>
+					</li>
+				</a>
+				<li>
+					<div id="all_event">
+						<img id="br0" src="img/ad0.png">
+						<img id="br1" src="img/ad1.png">
+						<img id="br2" src="img/ad2.png">
+						<img id="br3" src="img/ad3.png">
+					</div>
+				</li>
+				
+			</ul>
 		</div>
-		<div id="linker">
-			<div id=""></div>
+		
+		
+		<div id="mainContent">
+			<ul>
+				<li id="topContent">
+					<table>
+					<tr>
+						<div class="column">
+							<h3>観光の方向け</h3>
+								<div class="content">
+									<a href="hogehoge">
+										<img src="img/sample_img.png">
+										<h5>市電のご利用方法</h5>
+									</a>
+								</div>
+								<div class="content">
+									<a href="hogehoge">
+										<img src="img/sample_img.png">
+										<h5>乗車料金</h5>
+									</a>
+								</div>
+								<div class="content">
+									<a href="hogehoge">
+										<img src="img/sample_img.png">
+										<h5>おすすめ乗車券</h5>
+									</a>
+								</div>
+								<div class="content">
+									<a href="hogehoge">
+										<img src="img/sample_img.png">
+										<h5>グッズ</h5>
+									</a>
+								</div>
+						</div>
+						<div class="column">
+							<h3>一般の方向け</h3>
+								<div class="content">
+									<a href="hogehoge">
+										<img src="img/sample_img.png">
+										<h5>路線・時刻・料金</h5>
+									</a>
+								</div>
+								<div class="content">
+									<a href="hogehoge">
+										<img src="img/sample_img.png">
+										<h5>通勤・通学定期券</h5>
+									</a>
+								</div>
+								<div class="content">
+									<a href="hogehoge">
+										<img src="img/sample_img.png">
+										<h5>貸切電車</h5>
+									</a>
+								</div>
+								<div class="content">
+									<a href="hogehoge">
+										<img src="img/sample_img.png">
+										<h5>お忘れ物について</h5>
+									</a>
+								</div>
+						</div>
+						<div class="column">
+							<h3>企業の方向け</h3>
+								<div class="content">
+									<a href="hogehoge">
+										<img src="img/sample_img.png">
+										<h5>各種申請</h5>
+									</a>
+								</div>
+								<div class="content">
+									<a href="hogehoge">
+										<img src="img/sample_img.png">
+										<h5>入札・契約情報</h5>
+									</a>
+								</div>
+								<div class="content">
+									<a href="hogehoge">
+										<img src="img/sample_img.png">
+										<h5>広告掲載</h5>
+									</a>
+								</div>
+								<div class="content">
+									<a href="hogehoge">
+										<img src="img/sample_img.png">
+										<h5>撮影について</h5>
+									</a>
+								</div>
+						</div>
+						<div class="column">
+							<h3>函館市電についての詳細情報</h3>
+								<div class="content">
+									<a href="hogehoge">
+										<img src="img/sample_img.png">
+										<h5>企業局交通事業</h5>
+									</a>
+								</div>
+								<div class="content">
+									<a href="hogehoge">
+										<img src="img/sample_img.png">
+										<h5>事業の取り組み</h5>
+									</a>
+								</div>
+								<div class="content">
+									<a href="hogehoge">
+										<img src="img/sample_img.png">
+										<h5>函館市電の歴史</h5>
+									</a>
+								</div>
+								<div class="content">
+									<a href="hogehoge">
+										<img src="img/sample_img.png">
+										<h5>各種お問い合わせ</h5>
+									</a>
+								</div>
+						</div>
+					</tr>
+				</table>
+				</li>
+				<li id="news">
+					<h3>新着情報</h3>
+					<div id="twitter">
+						<a class="twitter-timeline" data-chrome="noheader nofooter"
+						 href="https://twitter.com/hakodate_koutsu" data-widget-id="439300443076694017"
+						 width="224px" height="300px">
+						 @@hakodate_koutsu からのツイート
+						 </a>
+						 <script>!function(d,s,id){var js,fjs=d.getElementsByTagName(s)[0],p=/^http:/.test(d.location)?'http':'https';if(!d.getElementById(id)){js=d.createElement(s);js.id=id;js.src=p+"://platform.twitter.com/widgets.js";fjs.parentNode.insertBefore(js,fjs);}}(document,"script","twitter-wjs");</script>
+					</div>
+				
+					<div id="newInfor">
+						<table>
+							<tr>							
+								<h5 class="topicTitle">「路面電車の日」記念</h5>
+								<a href="hogehoge"><h5 class="topicWord">200円均一運行のお知らせ</h5></a>
+								<h5 class="topicFrom">（2017年5月23日　事業課)</h5>
+								<hr class="lines">
+							</tr>
+							<tr>							
+								<h5 class="topicTitle">「路面電車の日」記念</h5>
+								<a href="hogehoge"><h5 class="topicWord">200円均一運行のお知らせ</h5></a>
+								<h5 class="topicFrom">（2017年5月23日　事業課)</h5>
+								<hr class="lines">
+							</tr>
+							<tr>							
+								<h5 class="topicTitle">「路面電車の日」記念</h5>
+								<a href="hogehoge"><h5 class="topicWord">200円均一運行のお知らせ</h5></a>
+								<h5 class="topicFrom">（2017年5月23日　事業課)</h5>
+								<hr class="lines">
+							</tr>
+							<tr>							
+								<h5 class="topicTitle">「路面電車の日」記念</h5>
+								<a href="hogehoge"><h5 class="topicWord">200円均一運行のお知らせ</h5></a>
+								<h5 class="topicFrom">（2017年5月23日　事業課)</h5>
+								<hr class="lines">
+							</tr>
+							<tr>							
+								<h5 class="topicTitle">「路面電車の日」記念</h5>
+								<a href="hogehoge"><h5 class="topicWord">200円均一運行のお知らせ</h5></a>
+								<h5 class="topicFrom">（2017年5月23日　事業課)</h5>
+								<hr class="lines">
+							</tr>
+							<tr>							
+								<h5 class="topicTitle">「路面電車の日」記念</h5>
+								<a href="hogehoge"><h5 class="topicWord">200円均一運行のお知らせ</h5></a>
+								<h5 class="topicFrom">（2017年5月23日　事業課)</h5>
+								<hr class="lines">
+							</tr>
+							<tr>							
+								<h5 class="topicTitle">「路面電車の日」記念</h5>
+								<a href="hogehoge"><h5 class="topicWord">200円均一運行のお知らせ</h5></a>
+								<h5 class="topicFrom">（2017年5月23日　事業課)</h5>
+								<hr class="lines">
+							</tr>
+							<tr>							
+								<h5 class="topicTitle">「路面電車の日」記念</h5>
+								<a href="hogehoge"><h5 class="topicWord">200円均一運行のお知らせ</h5></a>
+								<h5 class="topicFrom">（2017年5月23日　事業課)</h5>
+								<hr class="lines">
+							</tr>
+							<tr>							
+								<h5 class="topicTitle">「路面電車の日」記念</h5>
+								<a href="hogehoge"><h5 class="topicWord">200円均一運行のお知らせ</h5></a>
+								<h5 class="topicFrom">（2017年5月23日　事業課)</h5>
+								<hr class="lines">
+							</tr>
+						</table>
+					</div>
+				</li>
+			</ul>
 		</div>
-	</header>
-</body>
+		
+		<footer>
+			<ul>
+				<li id="fb1">
+					<ul id="contacts_title">
+						<li><h3>お問い合わせ</h3></li>
+						<li><h5>函館市役所 企画部 広報広聴課</h5></li>
+					</ul>
+					<p>TEL　　　0138-21-3631</p>
+					<p>FAX　　　0138-23-7604</p>
+					<p>E-mail　　kouhou@city.hakodate.hokkaido.jp</p>
+				</li>
+				<li id="fb2">
+					<a href="hogehoge"><p>函館市のホームページについて</p></a>
+					<a href="hogehoge"><p>著作権・免責事項・リンク</p></a>
+					<a href="hogehoge"><p>プライバシーポリシー</p></a>
+				</li>
+				<li id="fb3">
+					<h3>関連リンク</h3>
+					<a href="hogehoge"><p>上下水道・温泉・浴場</p></a>
+					<a href="hogehoge"><p>関連先リンク集</p></a>
+				</li>
+			</ul>
+		</footer>
+	</body>
 </html>

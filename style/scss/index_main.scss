@@ -1,14 +1,216 @@
+@charset "utf-8";
+$BSP:8px;
+$disp-size:$BSP*188;
+$BSDS: $disp-size/7*5;
+$mainColor:#56fbbf;
+$subColor:$mainColor + #303030;
+$TOPC_BSDS:$BSDS - $BSP*28- $BSP*3*2;
 body{
 	margin: 0;
 	padding: 0;
+	font-family:"Yu Gothic","MS Gothic","Osaka－等幅","Osaka-mono","monospace",sans-serif;
+	
+	ul{
+		margin: 0;
+		padding: 0;
+		li{
+			display: inline-block;
+		}
+	}
+	
 	header{
-		margin-left:160px;
-		#titleLogo{
-			#logo{
-				width:100px;
-				#symbol{
-					width:100%;
+		margin:0;
+		padding:0 $disp-size/7;
+		background-color:$mainColor;
+		height:$BSP*15;
+		li{
+			vertical-align:middle;
+		}
+		#logo{
+			width:$BSP*75;
+			margin-right:32*$BSP;
+			#symbol{
+				width:$BSP*13;
+				padding-right:$BSP*2;
+				margin-top:$BSP;
+			}
+			h1{
+				color:white;
+				font-weight:500;
+				font-size:$BSP*5.5;
+			}
+		}
+		#linker{
+			#siteMap{
+				
+			}
+			#searchInSite{
+				margin-top:$BSP;
+			}
+		}
+	}
+	
+	#mainVis{
+		margin:$BSP*12$disp-size/7 0;
+		padding:$BSP;
+		height:$BSP*48;
+		background-color:$subColor;
+		h3{
+			margin:0;
+		}
+		li{
+			vertical-align:middle;
+			margin-right:3*$BSP;
+			#events{
+				margin-left:4*$BSP;
+				height:$BSP*44;
+				background-color: white;
+				position: relative;
+				#burner{
+					height:$BSP*44;
+					width:$BSP*98;
 				}
+				#event_info{
+					color:#000000;
+					background-color:rgba(255,255,255,0.70);
+					position:absolute;
+					top:68.5%;
+					width:$BSP*94;
+					height:$BSP*11;
+					padding:$BSP*3 0 0 $BSP*4;
+					h2{
+						margin: 0;
+					}
+					#timing{
+						font-weight:500;
+					}
+					#fee{
+						margin-left:16*$BSP;
+						margin-top:2*$BSP;
+						color:#000000;
+						font-weight:500;
+					}
+				}
+			}
+			#all_event{
+				background-color: white;
+				img{
+					height:$BSP*44/4;
+					width:204.462px;
+					display: block;
+					box-sizing: border-box;
+				}
+			}
+		}
+	}
+	
+	#mainContent{
+		margin: $BSP*6 $disp-size/7 0;
+		li{
+			vertical-align: middle;
+		}
+		
+		#topContent{
+			padding: $BSP;
+			background-color:$subColor;
+			width:$TOPC_BSDS;
+			margin-right:$BSP*3;
+			.column{
+				margin:$BSP*3 $BSP;
+				background-color: white;
+				width:$TOPC_BSDS - $BSP*2;
+				height:($TOPC_BSDS/3.3);
+				h3{
+					font-size: $BSP*3;
+					margin: 0;
+					padding-left:$BSP;
+					padding-top:$BSP;
+					color:#505050;
+				}
+				.content{
+					padding: $BSP/2;
+					display:inline-block;
+					img{
+						width:(($TOPC_BSDS/4)-$BSP*8);
+						padding:$BSP*2 $BSP*3 0;
+						text-align:center;
+					}
+					h5{
+						margin:0;
+						font-weight: 500;
+						text-align: center;
+					}
+					&:hover{
+						background-color:$subColor + #303030;
+					}
+				}
+			}
+		}
+		
+		#news{
+			padding:$BSP;
+			background-color:$subColor;
+			width:$BSP*28;
+			#twitter{
+				margin-bottom:$BSP;
+			}
+			#newInfor{
+				margin-top:$BSP;
+				overflow: scroll;
+				overflow-x:hidden;
+				height:($TOPC_BSDS*4/3)-$BSP*47.5;
+				background-color:white;
+				margin-bottom: $BSP*3;
+				table{
+					width:$BSP*26;
+				}
+				tr{
+					padding:$BSP;
+					border-color: aliceblue;
+				}
+				.topicTitle{
+					text-align: left;
+				}
+				.topicWord{
+					padding-left:$BSP*2;
+					text-align: left;
+					font-weight:500;
+					margin-bottom: $BSP*2;
+				}
+				.topicFrom{
+					text-align: right;
+					margin-top:$BSP;
+					font-weight: 300;
+				}
+				#lines{
+					color:#7070707;
+					align:center;
+					width:10%;
+				}
+			}
+		}
+		
+	}
+	
+	footer{
+		background-color:$mainColor;
+		margin-top:$BSP*16;
+		padding:$BSP*4 $disp-size/7 $BSP*3;
+		ul{
+			li{
+				padding:0;
+				p,h3,h5{
+					margin: 0;
+				}
+			}
+			#fb1{
+				margin-right:32*$BSP;
+			}
+			#fb2{
+				margin-right:12*$BSP;
+			}
+			p{
+				font-size:$BSP*2;
 			}
 		}
 	}

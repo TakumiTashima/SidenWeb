@@ -1,9 +1,152 @@
+@charset "UTF-8";
 body {
   margin: 0;
-  padding: 0; }
+  padding: 0;
+  font-family: "Yu Gothic","MS Gothic","Osaka－等幅","Osaka-mono","monospace",sans-serif; }
+  body ul {
+    margin: 0;
+    padding: 0; }
+    body ul li {
+      display: inline-block; }
   body header {
-    margin-left: 160px; }
-    body header #titleLogo #logo {
-      width: 100px; }
-      body header #titleLogo #logo #symbol {
-        width: 100%; }
+    margin: 0;
+    padding: 0 214.85714px;
+    background-color: #56fbbf;
+    height: 120px; }
+    body header li {
+      vertical-align: middle; }
+    body header #logo {
+      width: 600px;
+      margin-right: 256px; }
+      body header #logo #symbol {
+        width: 104px;
+        padding-right: 16px;
+        margin-top: 8px; }
+      body header #logo h1 {
+        color: white;
+        font-weight: 500;
+        font-size: 44px; }
+    body header #linker #searchInSite {
+      margin-top: 8px; }
+  body #mainVis {
+    margin: 96px 214.85714px 0;
+    padding: 8px;
+    height: 384px;
+    background-color: #86ffef; }
+    body #mainVis h3 {
+      margin: 0; }
+    body #mainVis li {
+      vertical-align: middle;
+      margin-right: 24px; }
+      body #mainVis li #events {
+        margin-left: 32px;
+        height: 352px;
+        background-color: white;
+        position: relative; }
+        body #mainVis li #events #burner {
+          height: 352px;
+          width: 784px; }
+        body #mainVis li #events #event_info {
+          color: #000000;
+          background-color: rgba(255, 255, 255, 0.7);
+          position: absolute;
+          top: 68.5%;
+          width: 752px;
+          height: 88px;
+          padding: 24px 0 0 32px; }
+          body #mainVis li #events #event_info h2 {
+            margin: 0; }
+          body #mainVis li #events #event_info #timing {
+            font-weight: 500; }
+          body #mainVis li #events #event_info #fee {
+            margin-left: 128px;
+            margin-top: 16px;
+            color: #000000;
+            font-weight: 500; }
+      body #mainVis li #all_event {
+        background-color: white; }
+        body #mainVis li #all_event img {
+          height: 88px;
+          width: 204.462px;
+          display: block;
+          box-sizing: border-box; }
+  body #mainContent {
+    margin: 48px 214.85714px 0; }
+    body #mainContent li {
+      vertical-align: middle; }
+    body #mainContent #topContent {
+      padding: 8px;
+      background-color: #86ffef;
+      width: 802.28571px;
+      margin-right: 24px; }
+      body #mainContent #topContent .column {
+        margin: 24px 8px;
+        background-color: white;
+        width: 786.28571px;
+        height: 243.11688px; }
+        body #mainContent #topContent .column h3 {
+          font-size: 24px;
+          margin: 0;
+          padding-left: 8px;
+          padding-top: 8px;
+          color: #505050; }
+        body #mainContent #topContent .column .content {
+          padding: 4px;
+          display: inline-block; }
+          body #mainContent #topContent .column .content img {
+            width: 136.57143px;
+            padding: 16px 24px 0;
+            text-align: center; }
+          body #mainContent #topContent .column .content h5 {
+            margin: 0;
+            font-weight: 500;
+            text-align: center; }
+          body #mainContent #topContent .column .content:hover {
+            background-color: #b6ffff; }
+    body #mainContent #news {
+      padding: 8px;
+      background-color: #86ffef;
+      width: 224px; }
+      body #mainContent #news #twitter {
+        margin-bottom: 8px; }
+      body #mainContent #news #newInfor {
+        margin-top: 8px;
+        overflow: scroll;
+        overflow-x: hidden;
+        height: 689.71429px;
+        background-color: white;
+        margin-bottom: 24px; }
+        body #mainContent #news #newInfor table {
+          width: 208px; }
+        body #mainContent #news #newInfor tr {
+          padding: 8px;
+          border-color: aliceblue; }
+        body #mainContent #news #newInfor .topicTitle {
+          text-align: left; }
+        body #mainContent #news #newInfor .topicWord {
+          padding-left: 16px;
+          text-align: left;
+          font-weight: 500;
+          margin-bottom: 16px; }
+        body #mainContent #news #newInfor .topicFrom {
+          text-align: right;
+          margin-top: 8px;
+          font-weight: 300; }
+        body #mainContent #news #newInfor #lines {
+          color: #7070707;
+          align: center;
+          width: 10%; }
+  body footer {
+    background-color: #56fbbf;
+    margin-top: 128px;
+    padding: 32px 214.85714px 24px; }
+    body footer ul li {
+      padding: 0; }
+      body footer ul li p, body footer ul li h3, body footer ul li h5 {
+        margin: 0; }
+    body footer ul #fb1 {
+      margin-right: 256px; }
+    body footer ul #fb2 {
+      margin-right: 96px; }
+    body footer ul p {
+      font-size: 16px; }
