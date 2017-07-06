@@ -10,27 +10,15 @@ body {
       display: inline-block; }
   body header {
     margin: 0;
-    padding: 0 214.85714px;
-    background-color: #56fbbf;
-    height: 120px; }
-    body header li {
-      vertical-align: middle; }
-    body header #logo {
-      width: 600px;
-      margin-right: 256px; }
-      body header #logo #symbol {
-        width: 104px;
-        padding-right: 16px;
-        margin-top: 8px; }
-      body header #logo h1 {
-        color: white;
-        font-weight: 500;
-        font-size: 44px; }
-    body header #linker #searchInSite {
-      margin-top: 8px; }
+    padding: 0;
+    height: 120px;
+    width: 100%; }
+    body header iframe {
+      width: 100%; }
   body #mainVis {
     margin: 96px 214.85714px 0;
     padding: 8px;
+    padding-bottom: 24px;
     height: 384px;
     background-color: #86ffef; }
     body #mainVis h3 {
@@ -137,16 +125,8 @@ body {
           align: center;
           width: 10%; }
   body footer {
-    background-color: #56fbbf;
-    margin-top: 128px;
-    padding: 32px 214.85714px 24px; }
-    body footer ul li {
-      padding: 0; }
-      body footer ul li p, body footer ul li h3, body footer ul li h5 {
-        margin: 0; }
-    body footer ul #fb1 {
-      margin-right: 256px; }
-    body footer ul #fb2 {
-      margin-right: 96px; }
-    body footer ul p {
-      font-size: 16px; }
+    width: 100%;
+    margin: 128px 0 0 0; }
+    body footer iframe {
+      vertical-align: bottom;
+      width: 100%; }

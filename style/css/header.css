@@ -1,0 +1,27 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Yu Gothic","MS Gothic","Osaka－等幅","Osaka-mono","monospace",sans-serif;
+  padding: 16px 214.85714px 0;
+  background-color: #56fbbf; }
+  body ul {
+    margin: 0;
+    padding: 0; }
+    body ul li {
+      display: inline-block; }
+  body li {
+    vertical-align: middle; }
+  body #logo {
+    width: 600px;
+    margin-right: 256px; }
+    body #logo #symbol {
+      width: 104px;
+      padding-right: 16px;
+      margin-top: 8px; }
+    body #logo h1 {
+      color: white;
+      font-weight: 500;
+      font-size: 44px; }
+  body #linker #searchInSite {
+    margin-top: 8px; }

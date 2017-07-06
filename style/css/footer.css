@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body {
+  margin: 0;
+  background-color: #56fbbf;
+  padding: 32px 214.85714px 24px;
+  font-family: "Yu Gothic","MS Gothic","Osaka－等幅","Osaka-mono","monospace",sans-serif; }
+  body ul {
+    margin: 0;
+    padding: 0; }
+    body ul li {
+      display: inline-block; }
+  body ul li {
+    padding: 0; }
+    body ul li p, body ul li h3, body ul li h5 {
+      margin: 0; }
+    body ul li h3 {
+      margin-bottom: 4px; }
+  body ul #fb1 {
+    margin-right: 256px; }
+  body ul #fb2 {
+    margin-right: 96px; }
+  body ul p {
+    font-size: 16px; }

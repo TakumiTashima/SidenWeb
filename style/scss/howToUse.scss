@@ -1,0 +1,11 @@
+@charset "utf-8";
+$BSP:8px;
+$disp-size:$BSP*188;
+$BSDS: $disp-size/7*5;
+$mainColor:#56fbbf;
+$subColor:$mainColor + #303030;
+$TOPC_BSDS:$BSDS - $BSP*28- $BSP*3*2;
+body{
+	margin:0;
+	padding:0;
+	

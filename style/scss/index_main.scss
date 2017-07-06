@@ -20,39 +20,18 @@ body{
 	
 	header{
 		margin:0;
-		padding:0 $disp-size/7;
-		background-color:$mainColor;
+		padding:0;
 		height:$BSP*15;
-		li{
-			vertical-align:middle;
-		}
-		#logo{
-			width:$BSP*75;
-			margin-right:32*$BSP;
-			#symbol{
-				width:$BSP*13;
-				padding-right:$BSP*2;
-				margin-top:$BSP;
-			}
-			h1{
-				color:white;
-				font-weight:500;
-				font-size:$BSP*5.5;
-			}
-		}
-		#linker{
-			#siteMap{
-				
-			}
-			#searchInSite{
-				margin-top:$BSP;
-			}
+		width:100%;
+		iframe{
+			width:100%;
 		}
 	}
 	
 	#mainVis{
-		margin:$BSP*12$disp-size/7 0;
+		margin:$BSP*12 $disp-size/7 0;
 		padding:$BSP;
+		padding-bottom:$BSP*3;
 		height:$BSP*48;
 		background-color:$subColor;
 		h3{
@@ -193,25 +172,11 @@ body{
 	}
 	
 	footer{
-		background-color:$mainColor;
-		margin-top:$BSP*16;
-		padding:$BSP*4 $disp-size/7 $BSP*3;
-		ul{
-			li{
-				padding:0;
-				p,h3,h5{
-					margin: 0;
-				}
-			}
-			#fb1{
-				margin-right:32*$BSP;
-			}
-			#fb2{
-				margin-right:12*$BSP;
-			}
-			p{
-				font-size:$BSP*2;
-			}
+		width:100%;
+		margin:$BSP*16 0 0 0;
+		iframe{
+			vertical-align: bottom;
+			width:100%;
 		}
 	}
 }

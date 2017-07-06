@@ -1,0 +1,40 @@
+@charset "utf-8";
+$BSP:8px;
+$disp-size:$BSP*188;
+$BSDS: $disp-size/7*5;
+$mainColor:#56fbbf;
+$subColor:$mainColor + #303030;
+$TOPC_BSDS:$BSDS - $BSP*28- $BSP*3*2;
+body{
+	margin: 0;
+	ul{
+		margin: 0;
+		padding: 0;
+		li{
+			display: inline-block;
+		}
+	}
+	background-color:$mainColor;
+	padding:$BSP*4 $disp-size/7 $BSP*3;
+	font-family:"Yu Gothic","MS Gothic","Osaka－等幅","Osaka-mono","monospace",sans-serif;
+	ul{
+		li{
+			padding:0;
+			p,h3,h5{
+				margin: 0;
+			}
+			h3{
+				margin-bottom:$BSP/2;
+			}
+		}
+		#fb1{
+			margin-right:32*$BSP;
+		}
+		#fb2{
+			margin-right:12*$BSP;
+		}
+		p{
+			font-size:$BSP*2;
+		}
+	}
+}
