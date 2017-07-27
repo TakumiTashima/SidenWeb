@@ -1,0 +1,87 @@
+body {
+  margin: 0;
+  padding: 0; }
+  body ul, body ol {
+    margin: 0;
+    padding: 0; }
+  body .flexes {
+    display: flex; }
+  body .hidden {
+    display: none; }
+  body .selected {
+    opacity: 0.7; }
+  body header {
+    margin: 0;
+    padding: 0;
+    height: 120px;
+    width: 100%; }
+    body header iframe {
+      width: 100%; }
+  body main {
+    margin: 96px 214.85714px; }
+    body main #breadcrumb li {
+      display: inline-block; }
+      body main #breadcrumb li h4 {
+        margin-top: 0; }
+    body main ul {
+      list-style-type: none; }
+      body main ul #content {
+        border-radius: 4px;
+        order: -1;
+        margin-right: 32.22857px;
+        width: 859.42857px;
+        background-color: #86ffef;
+        padding: 16px 24px; }
+        body main ul #content #tabs {
+          display: flex;
+          justify-content: center;
+          width: 100%; }
+          body main ul #content #tabs input[type="button"] {
+            width: 193.37143px;
+            height: 32px;
+            border-radius: 4px;
+            background-color: #ecffff;
+            margin: 0 auto 0 auto; }
+            body main ul #content #tabs input[type="button"]:hover {
+              opacity: 0.8; }
+        body main ul #content section {
+          padding: 8px 8px;
+          margin-top: 3vh;
+          background-color: white;
+          border-radius: 4px; }
+          body main ul #content section h2 {
+            margin: 0;
+            padding: 0; }
+        body main ul #content #section1 {
+          height: 100vh; }
+        body main ul #content #section2 {
+          height: 40vh; }
+        body main ul #content #section3 {
+          height: 40vh; }
+        body main ul #content #section4 {
+          height: 80vh; }
+      body main ul #nav_rap nav {
+        border-radius: 4px;
+        width: 139.65714px;
+        background-color: #86ffef;
+        padding: 8px 24px; }
+        body main ul #nav_rap nav h3 {
+          margin: 0;
+          padding: 0;
+          margin-bottom: 8px; }
+        body main ul #nav_rap nav a {
+          margin: 0 0 4px 0; }
+        body main ul #nav_rap nav #nav_section2 {
+          margin-top: 16px; }
+        body main ul #nav_rap nav ul {
+          padding-left: 24px; }
+          body main ul #nav_rap nav ul li {
+            margin-bottom: 8px; }
+            body main ul #nav_rap nav ul li nav_section2 ol {
+              list-style-type: decimal; }
+  body footer {
+    width: 100%;
+    margin: 128px 0 0 0; }
+    body footer iframe {
+      vertical-align: bottom;
+      width: 100%; }

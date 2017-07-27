@@ -1,0 +1,59 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>函館市電サイト</title>
+		<link href="./style/css/subCommon.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/subCommon.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<iframe src="header.html" frameborder="0" scrolling="no"></iframe>
+		</header>
+		<main>
+			<ul id="breadcrumb">
+				<li><a href="index.html#mainContent">トップページ</a> &gt;</li>
+				<li><h4>乗車料金について</h4></li>
+			</ul>
+			<ul class="flexes">
+				<li id="content">
+					<div id="tabs">
+						<input type="button" id="tab1" class="selected" value="普通乗車料金表" onClick="tabChange('1')">
+						<input type="button" id="tab2" value="乗換・乗継" onClick="tabChange('2')">
+						<input type="button" id="tab3" value="交通系ICカード" onClick="tabChange('3')">
+					</div>
+					<section id="section1">
+						<h2>普通乗車料金表</h2>
+						<div class="content_text">
+							<p>料金表が表示されます</p>
+							<p>乗換・乗継については<a href="xxx" onClick="tabChange('3');return false">こちら</a>をご覧ください。</p>
+						</div>
+					</section>
+					<section id="section2" class="hidden">
+						<h2>乗換・乗継について</h2>
+					</section>
+					<section id="section3" class="hidden">
+						<h2>ICASnimocaについて</h2>
+					</section>
+				</li>
+				<li>
+					<div id="nav_rap">
+					<nav>
+						<h3 id="nav_section2">ダウンロードリンク</h3>
+								<ol>
+									<li><a href="">乗車料金表.csv</a></li>
+									<li><a href="">料金三角表.csv</a></li>
+									<li><a href="">営業距離三角表.csv</a></li>
+								</ol>
+					</nav>
+					</div>
+				</li>
+				
+			</ul>
+		</main>
+		<footer>
+			<iframe src="footer.html" frameborder="0" scrolling="no"></iframe>
+		</footer>
+	</body>
+</html>
