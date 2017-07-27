@@ -1,0 +1,148 @@
+@charset "utf-8";
+$BSP:8px;
+$disp-size:$BSP*188;
+$BSDS: $disp-size/7*5;
+$mainColor:#56fbbf;
+$subColor:$mainColor + #303030;
+$TOPC_BSDS:$BSDS - $BSP*28- $BSP*3*2;
+body{
+	margin:0;
+	padding:0;
+	
+	ul,ol{
+		margin: 0;
+		padding: 0;
+		li{
+			//display: inline-block;
+			//list-style-type: none;
+		}
+	}
+	.flexes{
+		display:flex;
+	}
+	.hidden{
+		display: none;
+	}
+	.selected{
+		opacity:0.7;
+	}
+	header{
+		margin:0;
+		padding:0;
+		height:$BSP*15;
+		width:100%;
+		iframe{
+			width:100%;
+		}
+	}
+	main{
+		margin:$BSP*12 $disp-size/7;
+		#breadcrumb{
+			li{
+				display:inline-block;
+				h4{margin-top:0;}
+			}
+		}
+		ul{
+			list-style-type: none;
+		
+			#content{
+				border-radius: $BSP/2;
+				order:-1;
+				margin-right:$BSDS*0.03;
+				width:$BSDS*0.8;
+				background-color: $subColor;
+				padding:$BSP*2 $BSP*3;
+				#tabs{
+					display: flex;
+					justify-content: center;
+					width:100%;
+					input[type="button"]{
+						width:$BSDS*0.8 /4 *0.9;
+						height:$BSP*4;
+						border-radius: $BSP /2;
+						background-color: $subColor +#666666;
+						margin: 0 auto 0 auto;
+						&:hover{
+							opacity:0.8;
+						}
+					}
+				}
+				
+				section{
+					h2{
+						margin: 0;
+						padding:0;
+					}
+					padding:$BSP $BSP;
+					margin-top:3vh;
+					background-color: white;
+					border-radius: $BSP/2;
+				}
+				#section1{
+					height:100vh;
+				}
+				#section2{
+					height:40vh;
+				}
+				#section3{
+					height:40vh;
+				}
+				#section4{
+					height:80vh;
+				}	
+			}
+			#nav_rap{
+				nav{
+					//position:fixed;
+					border-radius: $BSP/2;
+					width:$BSDS*0.13;
+					background-color: $subColor;
+					padding:$BSP $BSP*3;
+					h3{
+						margin:0;
+						padding:0;
+						margin-bottom:$BSP;
+					}
+					a{
+						margin:0 0 $BSP/2 0;
+					}
+					#nav_section2{
+						margin-top:$BSP*2;
+					}
+					ul{
+						padding-left:$BSP*3;
+						li{
+							margin-bottom:$BSP;
+							nav_section2{
+								ol{
+									list-style-type: decimal;
+									li{
+										ol{
+											li{
+
+											}
+										}
+									}	
+								}
+							}
+
+						}
+
+					}
+
+				}
+			}
+		}
+		
+		
+	}
+	footer{
+		width:100%;
+		margin:$BSP*16 0 0 0;
+		iframe{
+			vertical-align: bottom;
+			width:100%;
+		}
+	}
+}
