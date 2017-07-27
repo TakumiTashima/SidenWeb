@@ -1,0 +1,70 @@
+<!doctype html>
+<html>
+	<head>
+		<meta charset="utf-8">
+		<title>函館市電サイト</title>
+		<link href="./style/css/subCommon.css" rel="stylesheet" type="text/css">
+		<script type="text/javascript" src="js/subCommon.js"></script>
+	</head>
+
+	<body>
+		<header>
+			<iframe src="header.html" frameborder="0" scrolling="no"></iframe>
+		</header>
+		<main>
+			<ul id="breadcrumb">
+				<li><a href="index.html#mainContent">トップページ</a> &gt;</li>
+				<li><h4>お忘れ物について</h4></li>
+			</ul>
+			<ul class="flexes">
+				<li id="content">
+					<div id="tabs">
+						<input type="button" id="tab1" class="selected" value="お忘れ物について" onClick="tabChange('1')">
+						<input type="button" id="tab2"value="その他お問い合わせ先" onClick="tabChange('2')">
+					</div>
+					<section id="section1">
+						<h2>お忘れ物について</h2>
+						<div class="content_text">
+							<p>保管物品一覧は<a href="hogehoge.html">こちら</a>をご覧ください。</p>
+							
+							<h2 style="text-align: center">連絡先：XXX-XXX-XXX</h2>
+							
+							<h4>ご注意事項</h4>
+							<p>ご本人がご確認できる書類をお持ちください</p>
+							<p>営業時間：6:00~23:10</p>
+							
+							<h4>受取場所</h4>
+							<p>函館市駒場町15-1 （市電駒場車庫前下車　徒歩０分）</p>
+						</div>
+					</section>
+					<section id="section2" class="hidden">
+						<h2>その他お問い合わせ先</h2>
+					</section>
+				</li>
+				<li>
+					<div id="nav_rap">
+					<nav>
+						<ul>
+							<li>
+								<h3>掲載情報</h3>
+								<ol>
+									<li><a href="#callNumber">忘れ物の連絡先</a></li>
+								</ol>
+							</li>
+							<li>
+								<h3 id="nav_section2">ダウンロードリンク</h3>
+								<ol>
+								</ol>
+							</li>
+						</ul>
+					</nav>
+					</div>
+				</li>
+				
+			</ul>
+		</main>
+		<footer>
+			<iframe src="footer.html" frameborder="0" scrolling="no"></iframe>
+		</footer>
+	</body>
+</html>

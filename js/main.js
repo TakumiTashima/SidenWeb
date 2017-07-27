@@ -6,7 +6,7 @@ myFee=["前売りチケット　¥3,500<br>当日チケット　　¥4,000","参
 var img_n=0;
 
 window.onload =func1=function change_image(){
-  document.getElementById("burner").src=`img/ad${img_n}.png`;
+  document.getElementById("burner").src=`img/index/ad${img_n}.png`;
   document.getElementById("links").href=myHref[img_n];
   document.getElementById("title").innerHTML=myTitle[img_n];
   document.getElementById("timing").innerHTML=myTiming[img_n];
