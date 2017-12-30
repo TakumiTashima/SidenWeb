@@ -1,3 +1,15 @@
+.center{
+  text-align: center;
+}
+.flexbox{
+  display:flex;
+  flex-wrap:wrap;
+  justify-content: space-around;
+}
+.mp2zero{
+  margin: 0;
+  padding:0;
+}
 body {
   margin: 0;
   padding: 0; }
@@ -48,18 +60,11 @@ body {
           padding: 8px 8px;
           margin-top: 3vh;
           background-color: white;
+          min-height:100vh;
           border-radius: 4px; }
           body main ul #content section h2 {
             margin: 0;
             padding: 0; }
-        body main ul #content #section1 {
-          height: 100vh; }
-        body main ul #content #section2 {
-          height: 40vh; }
-        body main ul #content #section3 {
-          height: 40vh; }
-        body main ul #content #section4 {
-          height: 80vh; }
       body main ul #nav_rap nav {
         border-radius: 4px;
         width: 139.65714px;

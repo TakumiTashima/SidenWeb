@@ -4,9 +4,10 @@ myTiming=["4/21(Fri)　14:00→24:00","9/2,9/3　10:00→17:00","10/14(Thu)　�
 myFee=["前売りチケット　¥3,500<br>当日チケット　　¥4,000","参加無料！","","無料ダウンロードはこちらから"];
 
 var img_n=0;
+var burner;
 
 window.onload =func1=function change_image(){
-  document.getElementById("burner").src=`img/index/ad${img_n}.png`;
+  burner=document.getElementById("burner"); burner.src=`img/index/ad${img_n}.png`;
   document.getElementById("links").href=myHref[img_n];
   document.getElementById("title").innerHTML=myTitle[img_n];
   document.getElementById("timing").innerHTML=myTiming[img_n];
@@ -27,8 +28,8 @@ window.onload =func1=function change_image(){
 
 function adaptOpacity(pattern){
   if(pattern==0){
-      document.getElementById("burner").style.opacity="1";
+      burner.style.opacity="1";
   }else{
-    document.getElementById("burner").style.opacity="0.7";
+  	  burner.style.opacity="0.7";
   }
 }
