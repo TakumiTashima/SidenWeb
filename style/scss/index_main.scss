@@ -9,7 +9,7 @@ body{
 	margin: 0;
 	padding: 0;
 	font-family:"Yu Gothic","MS Gothic","Osaka－等幅","Osaka-mono","monospace",sans-serif;
-	
+
 	ul{
 		margin: 0;
 		padding: 0;
@@ -17,7 +17,7 @@ body{
 			display: inline-block;
 		}
 	}
-	
+
 	header{
 		margin:0;
 		padding:0;
@@ -27,7 +27,7 @@ body{
 			width:100%;
 		}
 	}
-	
+
 	#mainVis{
 		margin:$BSP*12 $disp-size/7 0;
 		padding:$BSP;
@@ -39,7 +39,7 @@ body{
 		}
 		li{
 			vertical-align:middle;
-			margin-right:3*$BSP;
+			margin-right:$BSP*2.5;
 			#events{
 				margin-left:4*$BSP;
 				height:$BSP*44;
@@ -82,18 +82,18 @@ body{
 			}
 		}
 	}
-	
+
 	#mainContent{
 		margin: $BSP*6 $disp-size/7 0;
 		li{
 			vertical-align: middle;
 		}
-		
+
 		#topContent{
 			padding: $BSP;
 			background-color:$subColor;
 			width:$TOPC_BSDS;
-			margin-right:$BSP*3;
+			margin-right:$BSP*2.5;
 			.column{
 				margin:$BSP*3 $BSP;
 				background-color: white;
@@ -125,7 +125,7 @@ body{
 				}
 			}
 		}
-		
+
 		#news{
 			padding:$BSP;
 			background-color:$subColor;
@@ -162,15 +162,15 @@ body{
 					font-weight: 300;
 				}
 				#lines{
-					color:#7070707;
+					color:#707070;
 					align:center;
 					width:10%;
 				}
 			}
 		}
-		
+
 	}
-	
+
 	footer{
 		width:100%;
 		margin:$BSP*16 0 0 0;

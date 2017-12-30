@@ -8,7 +8,7 @@ $TOPC_BSDS:$BSDS - $BSP*28- $BSP*3*2;
 body{
 	margin:0;
 	padding:0;
-	
+
 	ul,ol{
 		margin: 0;
 		padding: 0;
@@ -45,7 +45,7 @@ body{
 		}
 		ul{
 			list-style-type: none;
-		
+
 			#content{
 				border-radius: $BSP/2;
 				order:-1;
@@ -68,7 +68,7 @@ body{
 						}
 					}
 				}
-				
+
 				section{
 					h2{
 						margin: 0;
@@ -78,19 +78,8 @@ body{
 					margin-top:3vh;
 					background-color: white;
 					border-radius: $BSP/2;
+					min-height:100vh;
 				}
-				#section1{
-					height:100vh;
-				}
-				#section2{
-					height:40vh;
-				}
-				#section3{
-					height:40vh;
-				}
-				#section4{
-					height:80vh;
-				}	
 			}
 			#nav_rap{
 				nav{
@@ -123,7 +112,7 @@ body{
 
 											}
 										}
-									}	
+									}
 								}
 							}
 
@@ -134,8 +123,8 @@ body{
 				}
 			}
 		}
-		
-		
+
+
 	}
 	footer{
 		width:100%;
